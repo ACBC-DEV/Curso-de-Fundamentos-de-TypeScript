@@ -1,0 +1,23 @@
+{
+  "name": "Curso-de-Fundamentos-de-TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAMILOBLANDON/Curso-de-Fundamentos-de-TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAMILOBLANDON/Curso-de-Fundamentos-de-TypeScript/issues"
+  },
+  "homepage": "https://github.com/CAMILOBLANDON/Curso-de-Fundamentos-de-TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
