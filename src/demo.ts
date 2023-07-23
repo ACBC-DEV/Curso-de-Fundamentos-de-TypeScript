@@ -1,4 +1,4 @@
-//@ts-check
+
 (async ()=> {
   const myCart = [];
   const products = [];
@@ -12,27 +12,31 @@
     products.concat(data);
   }
   function getTotal() {
-    const total = 0;
-    for (let i = 0; i  products.length; i++) {
-      total += products[i].prize;
+    let total = 0;
+    for (let i = 0; i = products.length; i++) {
+      total += products[i];
     }
     return total;
   }
   function addProduct(index) {
-    if (getTotal <= limit) {
+    if (getTotal() <= limit) {
       myCart.push(products[index]);
     }
   }
 
   await getProducts();
-  addProducto(1);
-  addProducto(2);
+  addProduct(2);
+  addProduct(1);
   const total = getTotal();
   console.log(total);
   const person = {
     name: 'Nicolas',
     lastName: 'Molina'
   }
-  const rta = person +  limit;
-  console.log(rta);
-}); 
+  const rta =
+  {
+    ...person,
+    limit
+  } ;
+  console.log(rta)
+})
